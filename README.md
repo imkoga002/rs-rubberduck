@@ -8,3 +8,4 @@ This template should help get you started developing with Tauri in vanilla HTML,
 
 ## How to Debug with RubberDuck
 Rust及び[Tauri](https://tauri.app)の実行環境が必要です。[Tauri QuickStart](https://v2.tauri.app/start/)を参照してください。
+![image](https://github.com/imkoga002/rs-rubberduck/blob/master/src/assets/rubberduck1.png)
