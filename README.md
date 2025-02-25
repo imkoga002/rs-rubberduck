@@ -13,4 +13,4 @@ You need to prepare the environment for Rust and [Tauri](https://tauri.app).
 - [QuickStart | Tauri](https://v2.tauri.app/start/)
 
 
-<image src="https://github.com/imkoga002/rs-rubberduck/blob/master/src/assets/rubberduck1.png">
+<image src="https://github.com/imkoga002/rs-rubberduck/blob/master/src/assets/rubberduck1.png" width=450px>
