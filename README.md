@@ -5,3 +5,7 @@ This template should help get you started developing with Tauri in vanilla HTML,
 ## Recommended IDE Setup
 
 - [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+
+## How to Debug with RubberDuck
+Rust及び[Tauri](https://tauri.app)の実行環境が必要です。[Tauri QuickStart](https://v2.tauri.app/start/)を参照してください。
+![image](https://github.com/imkoga002/rs-rubberduck/blob/master/src/assets/rubberduck1.png)
