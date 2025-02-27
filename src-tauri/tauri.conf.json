@@ -22,6 +22,6 @@
   "bundle": {
     "active": true,
     "targets": "all",
-    "icon": ["icons/rubberduck1.png"]
+    "icon": ["icons/icon.png"]
   }
 }
