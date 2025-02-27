@@ -10,6 +10,14 @@ use tauri::{
 //     format!("Hello, {}! You've been greeted from Rust!", name)
 // }
 
+#[tauri::command]
+fn change_image() -> Result<(), String> {
+    let old_path = "assets/rubberduck1.png";
+    let new_path = "assets/icon.png";
+
+    std::fs::rename(old_path, new_path).map_err(|e| e.to_string())
+}
+
 #[cfg_attr(mobile, tauri::mobile_entry_point)]
 pub fn run() {
     tauri::Builder::default()
@@ -24,7 +32,7 @@ pub fn run() {
             Ok(())
         })
         .plugin(tauri_plugin_opener::init())
-        // .invoke_handler(tauri::generate_handler![greet])
+        .invoke_handler(tauri::generate_handler![change_image])
         .run(tauri::generate_context!())
         .expect("error while running tauri application");
 }
